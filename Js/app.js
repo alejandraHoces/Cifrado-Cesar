@@ -28,7 +28,7 @@ alert(' Su mensaje es: '+ encryptedMessage);*/
 
 
 
-//Solicitando al usuario mediante un prompt que ingrese su mensaje a cifrar.
+//Solicitando al usuario mediante un prompt que ingrese su mensaje a descifrar.
 var userMessage=prompt('Escriba mensaje a descifrar');
 //Creando funcion cipher que contiene como parametros a mi mensaje y mi numero fijo
 function decipher(message,nfijo){
@@ -52,6 +52,6 @@ for(var i=0;i<message.length;i++){
     }
  return result
   }
-//Llamando a la funcion el cual me devuelve el mensaje encriptado
+//Llamando a la funcion el cual me devuelve el mensaje descifrado
 var encryptedMessage=(decipher(userMessage,33))
 alert('Su mensaje es:'+ encryptedMessage);
