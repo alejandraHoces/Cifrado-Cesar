@@ -2,7 +2,7 @@
 var userMessage=prompt('Escriba mensaje a codificar');
 //Creando funcion cipher que contiene como parametros a mi mensaje y mi numero fijo
 function cipher(message,nfijo){
- var result=''
+ var result='';
 //Recorriendo con un for mi mensaje hasta la longitud de la misma
 for(var i=0;i<message.length;i++){
 //Convirtiendo con cada indice de mi letra a valor ascii
