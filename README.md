@@ -14,7 +14,7 @@
 5.Leer mensaje;  
 6.Para var i=0;i<mensaje.length;i++;  
 7.Inicializar variable ascii =mensaje.charCodeAt(i)(convirtiendo mensaje a valor ascci);  
-8.Si 65<=ascii && ascii<=90;
+8.Si 65<=ascii && ascii<=90;  
 9.Escribir_letras mayusculas;  
 10.Aplicar formula result+=String.fromCharCode((ascii-65+nfijo)%26+65);  
 11.Si 97<=ascii && ascii<=122;  
